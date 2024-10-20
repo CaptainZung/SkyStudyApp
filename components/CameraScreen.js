@@ -51,7 +51,7 @@ export default function CameraScreen({ navigation }) {
       <Camera style={styles.camera} type={type} flashMode={flash} ref={cameraRef}>
         {/* Nút Back phía trên bên trái */}
         <TouchableOpacity style={styles.topLeftButton} onPress={() => navigation.goBack()}>
-          <Image source={require('../assets/images/back-arrow.png')} style={styles.icon} />
+          <Image source={require('../assets/images/back_icon.png')} style={styles.icon} />
         </TouchableOpacity>
 
         {/* Nút Flash ở giữa phía trên */}

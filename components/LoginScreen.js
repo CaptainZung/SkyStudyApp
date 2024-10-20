@@ -74,6 +74,8 @@ const styles = StyleSheet.create({
     color: '#FF6347', // Màu đỏ cam
     marginBottom: 30,
     marginTop: -100, // Nhích lên trên
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   input: {
     width: '80%',
